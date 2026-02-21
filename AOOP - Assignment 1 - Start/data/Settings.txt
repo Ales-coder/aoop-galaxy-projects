@@ -1,0 +1,17 @@
+[Local]
+Environment: DEVELOPMENT
+LogLevel: 0
+
+[Paths]
+BaseDirectory: C:\Users\User\Desktop\AOOP_Final_Project\AOOP - Assignment 1 - Start\data\
+ExistingStars: C:\Temp\star_data.csv
+
+[Files]
+StarCSV: teststars.csv
+PlanetCSV: allplanets.csv
+
+[Galaxy]
+NumberOfStars: 100000
+GalaxySize: 35000
+KnownGalaxy: 350
+SeenGalaxy: 1500

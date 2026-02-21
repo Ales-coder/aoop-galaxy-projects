@@ -1,0 +1,52 @@
+
+
+.dialog-pane {
+    -fx-background-color: #0b1020;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: rgba(18, 24, 48, 0.95);
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #e8ecff;
+}
+
+.dialog-pane .content.label,
+.dialog-pane .label {
+    -fx-text-fill: #e8ecff;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: rgba(120, 140, 255, 0.18);
+    -fx-text-fill: #e8ecff;
+    -fx-background-radius: 10;
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: rgba(120, 140, 255, 0.28);
+}
+
+.dialog-pane .text-field {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-text-fill: #e8ecff;
+    -fx-prompt-text-fill: rgba(232,236,255,0.55);
+    -fx-background-radius: 10;
+}
+
+.dialog-pane .combo-box {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-text-fill: #e8ecff;
+    -fx-background-radius: 10;
+}
+
+.dialog-pane .spinner {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-background-radius: 10;
+}
+
+.dialog-pane .spinner .text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e8ecff;
+    -fx-prompt-text-fill: rgba(232,236,255,0.55);
+}

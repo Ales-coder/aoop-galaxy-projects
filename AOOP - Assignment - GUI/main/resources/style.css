@@ -1,0 +1,75 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0b0b20, #14143a);
+    -fx-font-family: "Segoe UI";
+}
+
+
+
+.menu-bar {
+    -fx-background-color: #1a1a3a;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+
+.context-menu {
+    -fx-background-color: #2a2a55;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item:focused {
+    -fx-background-color: #404090;
+}
+
+
+
+.label.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+
+
+.button {
+    -fx-background-color: #404090;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+
+.button:hover {
+    -fx-background-color: #5a5ad0;
+}
+
+
+
+.list-view {
+    -fx-background-color: #1f1f45;
+}
+
+.list-cell {
+    -fx-text-fill: white;
+}
+
+.list-cell:selected {
+    -fx-background-color: #404090;
+    -fx-text-fill: white;
+}
+
+
+
+.text-field {
+    -fx-background-color: #2a2a55;
+    -fx-text-fill: white;
+    -fx-border-color: #5050aa;
+}
+
+.combo-box, .spinner {
+    -fx-background-color: #2a2a55;
+}

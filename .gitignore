@@ -1,0 +1,13 @@
+# build files
+bin/
+target/
+*.class
+
+# eclipse
+.settings/
+.project
+.classpath
+
+# large datasets
+0-allstars.csv
+00-allstars.csv

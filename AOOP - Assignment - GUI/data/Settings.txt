@@ -1,0 +1,16 @@
+Environment: DEVELOPMENT
+LogLevel: 0
+
+BaseDirectory: .
+DataDirectory: data
+OutputDirectory: output
+
+ExistingStars: data/newdata.csv
+CustomStars: data/custom_stars.csv
+Species: data/custom_species.csv
+
+GalaxySize: 35000
+MinDistance: 0.03
+
+StarCSV: newdata.csv
+Seed: 12345

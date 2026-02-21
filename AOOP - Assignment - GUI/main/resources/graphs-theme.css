@@ -1,0 +1,88 @@
+
+
+.galaxy-graph {
+    -fx-background-color: radial-gradient(center 50% 40%, radius 70%, #0b1026, #050714);
+}
+
+
+.galaxy-title {
+    -fx-text-fill: #e9efff;
+    -fx-font-weight: bold;
+}
+
+.galaxy-subtitle {
+    -fx-text-fill: rgba(233,239,255,0.80);
+}
+
+
+.galaxy-graph .chart {
+    -fx-background-color: transparent;
+}
+
+.galaxy-graph .chart-title {
+    -fx-text-fill: #e9efff;
+}
+
+
+.galaxy-graph .chart-plot-background {
+    -fx-background-color: rgba(255,255,255,0.03);
+    -fx-background-radius: 14;
+}
+
+
+.galaxy-graph .chart-vertical-grid-lines,
+.galaxy-graph .chart-horizontal-grid-lines {
+    -fx-stroke: rgba(233,239,255,0.08);
+}
+
+
+.galaxy-graph .axis {
+    -fx-tick-label-fill: rgba(233,239,255,0.85);
+}
+.galaxy-graph .axis-label {
+    -fx-text-fill: rgba(233,239,255,0.90);
+}
+.galaxy-graph .axis-tick-mark,
+.galaxy-graph .axis-minor-tick-mark {
+    -fx-stroke: rgba(233,239,255,0.25);
+}
+
+
+.galaxy-graph .chart-legend {
+    -fx-background-color: rgba(5,7,20,0.55);
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+}
+.galaxy-graph .chart-legend-item {
+    -fx-text-fill: rgba(233,239,255,0.90);
+}
+
+
+.galaxy-graph .default-color0.chart-bar {
+    -fx-bar-fill: rgba(127, 188, 255, 0.75);
+}
+.galaxy-graph .default-color1.chart-bar {
+    -fx-bar-fill: rgba(255, 209, 102, 0.75);
+}
+
+
+.galaxy-graph .default-color1.chart-series-line {
+    -fx-stroke-width: 3px;
+}
+.galaxy-graph .default-color0.chart-series-line {
+    -fx-stroke-width: 1px;
+}
+
+
+.galaxy-graph .chart-line-symbol {
+    -fx-background-radius: 7px;
+    -fx-padding: 5px;
+}
+
+
+.galaxy-graph-tooltip {
+    -fx-background-color: rgba(5,7,20,0.90);
+    -fx-text-fill: #e9efff;
+    -fx-background-radius: 10;
+    -fx-padding: 8 10 8 10;
+}
